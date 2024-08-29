@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 150px 0 50px 0;
+}
+
+img {
+    border-radius: 15px;
+    margin-top: auto;
+    width: 300px;
+    height: 500px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card-2 {
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.title {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsla(228, 12%, 48%, 0.609);
+    font-size: 10px;
+    font-weight: 100;
+    margin: 20px 0 20px -160px;
+    letter-spacing: 5px;
+}
+
+.sub-title {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.p {
+    color: hsla(228, 12%, 48%, 0.609);
+    font-family: "Montserrat", system-ui;
+    font-weight: 400;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price .actual {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 20px;
+}
+
+.delete {
+    padding: 20px;
+}
+
+del {
+    color: hsla(228, 12%, 48%, 0.609);
+    font-family: "Montserrat", system-ui;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn button {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover {
+    background-color: hsl(158, 70%, 21%);
+    cursor: pointer;
+    font-family: "Fraunces", serif;
+    box-shadow: 3px 4px 5px black;
+}
